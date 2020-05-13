@@ -1,6 +1,12 @@
-from flask import Flask,jsonify, abort, request
-from utils import common
 import json
+import threading
+
+from flask import Flask, jsonify, abort, request, Request
+from utils import common, ansible_helper, mysql_helper
+
+import urllib
+
+from utils.mysql_helper import DeviceView
 
 app = Flask(__name__)
 
@@ -73,5 +79,56 @@ def search_images():
     print(result)
     return jsonify(result)
 
+
+@app.route('/images/download/status',methods=["POST"])
+def get_bar_images():
+    bar={}
+    if request.method == "POST":
+        tarname = request.form.get('tar_name')
+        if ansible_helper.list["name"]==tarname:
+            percent=max(ansible_helper.list["percent"])
+            bar={"name":tarname,"percent":percent}
+        else:
+            bar={"name":tarname,"percent":0}
+    return jsonify(bar)
+
+@app.route('/images/download/start',methods=["POST"])
+def start_download():
+    result={"image_name":"","status":False,"thead":None}
+    if request.method=="POST":
+        node_name=request.form.get('node_name')
+        name = request.form.get('name')
+        save_path=request.form.get('save_path')
+        tarname=request.form.get('tar_name')
+        t =threading.Thread(target=ansible_helper.docker_images_download,args=(node_name,name,"/tmp/"+tarname,tarname))
+        t.start()
+        result={"image_name":name,"status":t.isAlive(),"thead":t.ident}
+    return jsonify(result)
+
+@app.route('/containers')
+def get_containers():
+    url="http://172.16.200.4:5000/v1/api/containers/"
+    req=urllib.request.urlopen(url)
+    a=json.load(req)
+    return jsonify(a)
+
+
+@app.route('/apps')
+def get_apps():
+    result=common.get_apps()
+    return jsonify(result)
+
+
+@app.route('/alldeviceinfo')
+def get_devices():
+    all_pods = common.get_all_pod_infos()
+    all_devices=mysql_helper.get_all_device_to_list()
+    all_devices["podTotal"]=all_pods["total"]
+    return jsonify(all_devices)
+
+
+
+
+
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0",port=5000)
