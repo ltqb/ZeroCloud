@@ -3,7 +3,7 @@
 - flask 框架
 - 前端vue-manager-system框架
 
-## python依赖包
+## 依赖
 - kubernetes==11.0.0
 - flask==1.1.2
 - docker==4.2.0
