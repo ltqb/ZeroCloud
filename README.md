@@ -22,10 +22,14 @@
 - ruamel.yaml
 - ansible_runner
 
-## docker部署后端
+## 服务部署
 
-docker build -t xxx:tag .
+- docker部署
 
+```powershell
+docker build -t zero_cloud:v1.0.1 .
+docker run -d -p5000:5000  --name=zero_cloud zero_cloud:v1.0.1
+```
 
 ## 主要功能
 
