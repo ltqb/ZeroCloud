@@ -12,4 +12,10 @@
 容器云的监控告警
 
 界面展示：
+![image](https://github.com/EthanSun2019/ContainerManager/blob/master/b0999dc299f2dd08d66cde90b59a6ed.png)
+
+![image](https://github.com/EthanSun2019/ContainerManager/blob/master/53c3747e65ab9ca82c1909d588432ea.png)
+
 ![image](https://github.com/EthanSun2019/ContainerManager/blob/master/0123ba3a97e25faf9c40f6c31c9b6de.png)
+
+![image](https://github.com/EthanSun2019/ContainerManager/blob/master/99cfdf45f05e1ad84c30596fa3ae502.png)
