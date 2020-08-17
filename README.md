@@ -49,6 +49,11 @@ python3 app.py
 - 容器云的监控告警，基于promethues（管理员权限）
 
 ## 界面展示：
+
+示例演示地址：
+http://212.64.85.14/
+
+
 ![image](https://github.com/EthanSun2019/ContainerManager/blob/master/b0999dc299f2dd08d66cde90b59a6ed.png)
 
 ![image](https://github.com/EthanSun2019/ContainerManager/blob/master/53c3747e65ab9ca82c1909d588432ea.png)
