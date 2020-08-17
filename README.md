@@ -1,17 +1,45 @@
+## 开发环境
+- python3.6
+- flask 框架
+- 前端vue-manager-system框架
+
+## python依赖包
+kubernetes==11.0.0
+flask==1.1.2
+docker==4.2.0
+sqlalchemy==1.3.16
+werkzeug==1.0.1
+pymysql==0.9.3
+paramiko==2.7.1
+dateparser==0.7.6
+retrying==1.3.3
+ansible==2.7.8
+jinja2==2.9.6
+netaddr
+pbr==1.6
+hvac
+jmespath
+ruamel.yaml
+ansible_runner
+
+## docker部署后端
+
+docker build -t xxx:tag .
+
 
 ## 主要功能
 
 - 多租户设计，实现容器云的多租户使用 （管理员权限）
 
-2. ** 基于k8s集群的容器云，集群管理，集群节点自动横向扩展，集群状态概览 （管理员权限）
+- 基于k8s集群的容器云，集群管理，集群节点自动横向扩展，集群状态概览 （管理员权限）
 
-3. ** 容器管理，镜像管理，POD管理 ,容器日志的管理（运维角色）
+- 容器管理，镜像管理，POD管理 ,容器日志的管理,（运维角色）
 
-4. ** 应用发布，更新，应用服务的管理 （开发角色）
+- 应用持续发布交付，应用更新，服务的管理 （运维开发角色）
 
-5. ** 容器云的监控告警，基于promethues（管理员权限）
+- 容器云的监控告警，基于promethues（管理员权限）
 
-界面展示：
+## 界面展示：
 ![image](https://github.com/EthanSun2019/ContainerManager/blob/master/b0999dc299f2dd08d66cde90b59a6ed.png)
 
 ![image](https://github.com/EthanSun2019/ContainerManager/blob/master/53c3747e65ab9ca82c1909d588432ea.png)
