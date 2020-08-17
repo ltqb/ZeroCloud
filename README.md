@@ -4,23 +4,23 @@
 - 前端vue-manager-system框架
 
 ## python依赖包
-kubernetes==11.0.0
-flask==1.1.2
-docker==4.2.0
-sqlalchemy==1.3.16
-werkzeug==1.0.1
-pymysql==0.9.3
-paramiko==2.7.1
-dateparser==0.7.6
-retrying==1.3.3
-ansible==2.7.8
-jinja2==2.9.6
-netaddr
-pbr==1.6
-hvac
-jmespath
-ruamel.yaml
-ansible_runner
+- kubernetes==11.0.0
+- flask==1.1.2
+- docker==4.2.0
+- sqlalchemy==1.3.16
+- werkzeug==1.0.1
+- pymysql==0.9.3
+- paramiko==2.7.1
+- dateparser==0.7.6
+- retrying==1.3.3
+- ansible==2.7.8
+- jinja2==2.9.6
+- netaddr
+- pbr==1.6
+- hvac
+- jmespath
+- ruamel.yaml
+- ansible_runner
 
 ## docker部署后端
 
