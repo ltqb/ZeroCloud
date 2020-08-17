@@ -1,0 +1,24 @@
+title = "zero_cloud config file"
+verison = "v1.0.0"
+
+[owner]
+name = "EthanSun"
+dob = 2020-07-14T10:00:00-08:00
+
+[current_cluster]
+name = "COMANPY"
+
+[clusters.TEST]
+name = "TEST"
+config_path = "/opt/config_files/104_config"
+prom_url = "http://192.168.56.104:9090"
+
+[clusters.COMPANY]
+name = "COMPANY"
+config_path = "/opt/config_files/company_config"
+prom_url = "http://192.168.56.104:9090"
+
+[clusters.Windows]
+name = "Windows"
+config_path = "D:\\k8s-dev\\config01"
+prom_url = "http://192.168.56.104:9090"
