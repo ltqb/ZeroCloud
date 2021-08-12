@@ -14,6 +14,6 @@ COPY controller /opt/zero_colud/controller
 
 COPY utils /opt/zero_clould/utils
 
-RUN pip3 install -i https://pypi.douban.com/simple  -r /requirement.txt
+RUN pip3 install -i https://pypi.douban.com/simple  -r /opt/zero_cloud/requirement.txt
 
 CMD ["python3", "app.py"]
