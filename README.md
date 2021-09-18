@@ -58,15 +58,15 @@ python3 app.py
 http://212.64.85.14/
 
 
-![image](https://github.com/EthanSun2019/ZeroCloud/blob/master/b0999dc299f2dd08d66cde90b59a6ed.png)
+![image](https://github.com/EthanSun2019/ZeroCloud/blob/master/img/b0999dc299f2dd08d66cde90b59a6ed.png)
 
-![image](https://github.com/EthanSun2019/ZeroCloud/blob/master/53c3747e65ab9ca82c1909d588432ea.png)
+![image](https://github.com/EthanSun2019/ZeroCloud/blob/master/img/53c3747e65ab9ca82c1909d588432ea.png)
 
-![image](https://github.com/EthanSun2019/ZeroCloud/blob/master/0123ba3a97e25faf9c40f6c31c9b6de.png)
+![image](https://github.com/EthanSun2019/ZeroCloud/blob/master/img/0123ba3a97e25faf9c40f6c31c9b6de.png)
 
-![image](https://github.com/EthanSun2019/ZeroCloud/blob/master/99cfdf45f05e1ad84c30596fa3ae502.png)
+![image](https://github.com/EthanSun2019/ZeroCloud/blob/master/img/99cfdf45f05e1ad84c30596fa3ae502.png)
 
-![image](https://github.com/EthanSun2019/ZeroCloud/blob/master/9f1a531d348ea6882bcbb01721b9f8d.png)
+![image](https://github.com/EthanSun2019/ZeroCloud/blob/master/img/9f1a531d348ea6882bcbb01721b9f8d.png)
 
 ![image](https://github.com/EthanSun2019/ZeroCloud/blob/master/img/a2b51d12c1af2df1b76a3d600079a90.png)
 
