@@ -31,7 +31,7 @@ docker build -t zero_cloud:v1.0.1 .
 
 docker run -d -p5000:5000  --name=zero_cloud zero_cloud:v1.0.1
 ```
-- 宿主机部署测试
+- 部署测试
 ```powershell
 python3 app.py
 ```
