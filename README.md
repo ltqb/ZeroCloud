@@ -40,7 +40,7 @@ python3 app.py
 
 - Design for multi user,and users can use self space or namespace of caontainer cloud (admin)
 
-- The Container cloud base on kubernetes ,Cluster manager, node auto scaler and stauts of the container cloud（admin）
+- The Container cloud base on kubernetes ,Cluster manager, node auto scaler and status of the container cloud（admin）
 
 - Container Manager ,docker image manager,pod manager,container log manager (ops)
 
