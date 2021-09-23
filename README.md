@@ -1,7 +1,7 @@
 ## Environment
 - python3.6
-- flask Framework
-- vue-manager-system framework
+- flask 
+- vue-manager-system 
 
 ## Installed packages
 - kubernetes==11.0.0
@@ -23,8 +23,6 @@
 - ansible_runner
 
 ## Deployment
-
-- docker deployment
 
 ```powershell
 docker build -t zero_cloud:v1.0.1 .
@@ -49,6 +47,7 @@ python3 app.py
 - Monitor and alertment of container cloud ,base on prometheus (ops)
 
 ## Contact
+
 - QQ : 42188007
 - Email: 42188007@qq.com
 
