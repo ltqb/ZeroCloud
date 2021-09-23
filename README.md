@@ -38,15 +38,15 @@ python3 app.py
 
 ## Main functions
 
-- Design for multi user,and users can use self space or namespace of caontainer cloud 
+- Design for multi user,and users can use self space or namespace of caontainer cloud (admin)
 
-- The Container cloud base on kubernetes ,Cluster manager, node auto scaler and stauts of the container cloud（for administrator）
+- The Container cloud base on kubernetes ,Cluster manager, node auto scaler and stauts of the container cloud（admin）
 
-- Container Manager ,docker image manager,pod manager,container log manager (for maintainer)
+- Container Manager ,docker image manager,pod manager,container log manager (ops)
 
-- 应用持续发布交付，应用更新，服务的管理 （运维开发角色）
+- CICD,Deployment and sevice manager (devops）
 
-- 容器云的监控告警，基于promethues（管理员权限）
+- Monitor and alertment of container cloud ,base on prometheus (ops)
 
 ## Contact
 - QQ : 42188007
