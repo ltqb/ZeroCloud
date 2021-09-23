@@ -1,9 +1,9 @@
-## Dev environment
+## Environment
 - python3.6
 - flask Framework
 - vue-manager-system framework
 
-## Installed package
+## Installed packages
 - kubernetes==11.0.0
 - flask==1.1.2
 - docker==4.2.0
@@ -36,7 +36,7 @@ docker run -d -p5000:5000  --name=zero_cloud zero_cloud:v1.0.1
 python3 app.py
 ```
 
-## Main functions
+## Functions
 
 - Design for multi user,and users can use self space or namespace of caontainer cloud (admin)
 
