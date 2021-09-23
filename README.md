@@ -1,9 +1,9 @@
-## 开发环境
+## Dev environment
 - python3.6
-- flask 框架
-- 前端vue-manager-system框架
+- flask Framework
+- vue-manager-system framework
 
-## 依赖
+## Installed package
 - kubernetes==11.0.0
 - flask==1.1.2
 - docker==4.2.0
@@ -22,39 +22,39 @@
 - ruamel.yaml
 - ansible_runner
 
-## 部署
+## Deployment
 
-- docker部署
+- docker deployment
 
 ```powershell
 docker build -t zero_cloud:v1.0.1 .
 
 docker run -d -p5000:5000  --name=zero_cloud zero_cloud:v1.0.1
 ```
-- 部署测试
+- Run
 ```powershell
 python3 app.py
 ```
 
-## 主要功能
+## Main functions
 
-- 多租户设计，实现容器云的多租户使用 （管理员权限）
+- Design for multi user,and users can use self space or namespace of caontainer cloud 
 
-- 基于k8s集群的容器云，集群管理，集群节点自动横向扩展，集群状态概览 （管理员权限）
+- The Container cloud base on kubernetes ,Cluster manager, node auto scaler and stauts of the container cloud（for administrator）
 
-- 容器管理，镜像管理，POD管理 ,容器日志的管理,（运维角色）
+- Container Manager ,docker image manager,pod manager,container log manager (for maintainer)
 
 - 应用持续发布交付，应用更新，服务的管理 （运维开发角色）
 
 - 容器云的监控告警，基于promethues（管理员权限）
 
-## 联系方式
+## Contact
 - QQ : 42188007
 - Email: 42188007@qq.com
 
-## 界面展示：
+## Pictrure Show：
 
-示例演示地址：
+Demo address：
 http://212.64.85.14/
 
 
