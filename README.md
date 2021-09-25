@@ -51,7 +51,7 @@ python3 app.py
 - QQ : 42188007
 - Email: 42188007@qq.com
 
-## Pictrure Show：
+## Pictrue Show：
 
 Demo address：
 http://212.64.85.14/
