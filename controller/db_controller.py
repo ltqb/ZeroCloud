@@ -157,8 +157,6 @@ def get_config_file():
     return info
 # print(delete_host_info("test5")
 
-# add_host_info("sjl01","10.147.19.123","root","Happytime2020!",22,0,"Certus 1F","","COMPANY")
-
 # my=DeviceView()
 # my.add_host_info("test","127.0.0.1","root","password",22,0,"1F","2核 8G","")
 # get_all_hosts_info()
